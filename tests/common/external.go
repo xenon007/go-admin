@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/GoAdminGroup/go-admin/modules/config"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/constant"
 	"github.com/gavv/httpexpect"
+	"github.com/xenon007/go-admin/modules/config"
+	"github.com/xenon007/go-admin/plugins/admin/modules/constant"
 )
 
 func externalTest(e *httpexpect.Expect, sesID *http.Cookie) {

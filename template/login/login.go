@@ -5,10 +5,10 @@ import (
 	"html/template"
 	"strings"
 
-	"github.com/GoAdminGroup/go-admin/template/types"
+	"github.com/xenon007/go-admin/template/types"
 
-	"github.com/GoAdminGroup/go-admin/modules/language"
-	"github.com/GoAdminGroup/go-admin/modules/logger"
+	"github.com/xenon007/go-admin/modules/language"
+	"github.com/xenon007/go-admin/modules/logger"
 )
 
 type Login struct {

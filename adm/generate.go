@@ -11,11 +11,11 @@ import (
 
 	"github.com/AlecAivazis/survey/v2"
 	"github.com/AlecAivazis/survey/v2/core"
-	"github.com/GoAdminGroup/go-admin/modules/db"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/tools"
 	"github.com/mgutz/ansi"
 	"github.com/schollz/progressbar"
+	"github.com/xenon007/go-admin/modules/db"
+	"github.com/xenon007/go-admin/plugins/admin/modules"
+	"github.com/xenon007/go-admin/plugins/admin/modules/tools"
 	"gopkg.in/ini.v1"
 )
 

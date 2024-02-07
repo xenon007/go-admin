@@ -11,26 +11,26 @@ import (
 	"strings"
 	"time"
 
-	"github.com/GoAdminGroup/go-admin/context"
-	"github.com/GoAdminGroup/go-admin/modules/collection"
-	"github.com/GoAdminGroup/go-admin/modules/config"
-	"github.com/GoAdminGroup/go-admin/modules/db"
-	"github.com/GoAdminGroup/go-admin/modules/db/dialect"
-	errs "github.com/GoAdminGroup/go-admin/modules/errors"
-	"github.com/GoAdminGroup/go-admin/modules/language"
-	"github.com/GoAdminGroup/go-admin/modules/logger"
-	"github.com/GoAdminGroup/go-admin/modules/ui"
-	"github.com/GoAdminGroup/go-admin/modules/utils"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/models"
-	form2 "github.com/GoAdminGroup/go-admin/plugins/admin/modules/form"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/parameter"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/tools"
-	"github.com/GoAdminGroup/go-admin/template"
-	"github.com/GoAdminGroup/go-admin/template/types"
-	"github.com/GoAdminGroup/go-admin/template/types/action"
-	"github.com/GoAdminGroup/go-admin/template/types/form"
-	selection "github.com/GoAdminGroup/go-admin/template/types/form/select"
 	"github.com/GoAdminGroup/html"
+	"github.com/xenon007/go-admin/context"
+	"github.com/xenon007/go-admin/modules/collection"
+	"github.com/xenon007/go-admin/modules/config"
+	"github.com/xenon007/go-admin/modules/db"
+	"github.com/xenon007/go-admin/modules/db/dialect"
+	errs "github.com/xenon007/go-admin/modules/errors"
+	"github.com/xenon007/go-admin/modules/language"
+	"github.com/xenon007/go-admin/modules/logger"
+	"github.com/xenon007/go-admin/modules/ui"
+	"github.com/xenon007/go-admin/modules/utils"
+	"github.com/xenon007/go-admin/plugins/admin/models"
+	form2 "github.com/xenon007/go-admin/plugins/admin/modules/form"
+	"github.com/xenon007/go-admin/plugins/admin/modules/parameter"
+	"github.com/xenon007/go-admin/plugins/admin/modules/tools"
+	"github.com/xenon007/go-admin/template"
+	"github.com/xenon007/go-admin/template/types"
+	"github.com/xenon007/go-admin/template/types/action"
+	"github.com/xenon007/go-admin/template/types/form"
+	selection "github.com/xenon007/go-admin/template/types/form/select"
 	"golang.org/x/crypto/bcrypt"
 )
 
@@ -1460,10 +1460,10 @@ func (s *SystemTable) GetGenerateForm(ctx *context.Context) (generateTool Table)
 			{Text: "time", Value: "time"},
 			{Text: "log", Value: "log"},
 			{Text: "fmt", Value: "fmt"},
-			{Text: "github.com/GoAdminGroup/go-admin/modules/db/dialect", Value: "github.com/GoAdminGroup/go-admin/modules/db/dialect"},
-			{Text: "github.com/GoAdminGroup/go-admin/modules/db", Value: "github.com/GoAdminGroup/go-admin/modules/db"},
-			{Text: "github.com/GoAdminGroup/go-admin/modules/language", Value: "github.com/GoAdminGroup/go-admin/modules/language"},
-			{Text: "github.com/GoAdminGroup/go-admin/modules/logger", Value: "github.com/GoAdminGroup/go-admin/modules/logger"},
+			{Text: "github.com/xenon007/go-admin/modules/db/dialect", Value: "github.com/xenon007/go-admin/modules/db/dialect"},
+			{Text: "github.com/xenon007/go-admin/modules/db", Value: "github.com/xenon007/go-admin/modules/db"},
+			{Text: "github.com/xenon007/go-admin/modules/language", Value: "github.com/xenon007/go-admin/modules/language"},
+			{Text: "github.com/xenon007/go-admin/modules/logger", Value: "github.com/xenon007/go-admin/modules/logger"},
 		}).
 		FieldDefault("").
 		FieldOptionExt(map[string]interface{}{

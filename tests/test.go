@@ -5,14 +5,14 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/GoAdminGroup/go-admin/modules/config"
-	"github.com/GoAdminGroup/go-admin/modules/db"
-	"github.com/GoAdminGroup/go-admin/modules/db/dialect"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/table"
-	"github.com/GoAdminGroup/go-admin/tests/common"
-	"github.com/GoAdminGroup/go-admin/tests/frameworks/fasthttp"
 	"github.com/gavv/httpexpect"
 	fasthttp2 "github.com/valyala/fasthttp"
+	"github.com/xenon007/go-admin/modules/config"
+	"github.com/xenon007/go-admin/modules/db"
+	"github.com/xenon007/go-admin/modules/db/dialect"
+	"github.com/xenon007/go-admin/plugins/admin/modules/table"
+	"github.com/xenon007/go-admin/tests/common"
+	"github.com/xenon007/go-admin/tests/frameworks/fasthttp"
 )
 
 func Cleaner(config config.DatabaseList) {

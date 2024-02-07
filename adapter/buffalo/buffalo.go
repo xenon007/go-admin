@@ -12,15 +12,15 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/GoAdminGroup/go-admin/adapter"
-	"github.com/GoAdminGroup/go-admin/context"
-	"github.com/GoAdminGroup/go-admin/engine"
-	"github.com/GoAdminGroup/go-admin/modules/config"
-	"github.com/GoAdminGroup/go-admin/plugins"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/models"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/constant"
-	"github.com/GoAdminGroup/go-admin/template/types"
 	"github.com/gobuffalo/buffalo"
+	"github.com/xenon007/go-admin/adapter"
+	"github.com/xenon007/go-admin/context"
+	"github.com/xenon007/go-admin/engine"
+	"github.com/xenon007/go-admin/modules/config"
+	"github.com/xenon007/go-admin/plugins"
+	"github.com/xenon007/go-admin/plugins/admin/models"
+	"github.com/xenon007/go-admin/plugins/admin/modules/constant"
+	"github.com/xenon007/go-admin/template/types"
 )
 
 // Buffalo structure value is a Buffalo GoAdmin adapter.

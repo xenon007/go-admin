@@ -9,18 +9,18 @@ import (
 	"strings"
 	"time"
 
-	_ "github.com/GoAdminGroup/go-admin/adapter/chi"
-	_ "github.com/GoAdminGroup/go-admin/modules/db/drivers/mysql"
+	_ "github.com/xenon007/go-admin/adapter/chi"
+	_ "github.com/xenon007/go-admin/modules/db/drivers/mysql"
 
-	"github.com/GoAdminGroup/go-admin/engine"
-	"github.com/GoAdminGroup/go-admin/examples/datamodel"
-	"github.com/GoAdminGroup/go-admin/modules/config"
-	"github.com/GoAdminGroup/go-admin/modules/language"
-	"github.com/GoAdminGroup/go-admin/plugins/example"
-	"github.com/GoAdminGroup/go-admin/template"
-	"github.com/GoAdminGroup/go-admin/template/chartjs"
 	"github.com/GoAdminGroup/themes/adminlte"
 	"github.com/go-chi/chi"
+	"github.com/xenon007/go-admin/engine"
+	"github.com/xenon007/go-admin/examples/datamodel"
+	"github.com/xenon007/go-admin/modules/config"
+	"github.com/xenon007/go-admin/modules/language"
+	"github.com/xenon007/go-admin/plugins/example"
+	"github.com/xenon007/go-admin/template"
+	"github.com/xenon007/go-admin/template/chartjs"
 )
 
 func main() {
